@@ -1,0 +1,188 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- App Logo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✈"
+            android:textSize="55sp"
+            android:gravity="center"
+            android:textColor="#D6A84F"
+            android:paddingTop="20dp" />
+
+        <!-- App Name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SKYFARE"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#142D4E"
+            android:gravity="center"
+            android:paddingTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About This Application"
+            android:textSize="15sp"
+            android:textColor="#52647A"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="25dp" />
+
+        <!-- Application Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLICATION INFORMATION"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#142D4E"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skyfare is a mobile application developed to estimate excess baggage charges for air travel. Users can enter their checked baggage weight, select their ticket class and specify the excess baggage rate per kilogram."
+            android:textSize="14sp"
+            android:textColor="#52647A"
+            android:lineSpacingExtra="5dp"
+            android:background="#FFFFFF"
+            android:padding="16dp" />
+
+        <!-- Developer Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEVELOPER DETAILS"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#142D4E"
+            android:paddingTop="25dp"
+            android:paddingBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer Name"
+                android:textColor="#52647A"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvDeveloperName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AININ SOFIYA BT EDRUS"
+                android:textColor="#142D4E"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Number"
+                android:textColor="#52647A"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvStudentNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2024280908"
+                android:textColor="#142D4E"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group"
+                android:textColor="#52647A"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5A"
+                android:textColor="#142D4E"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programme Code"
+                android:textColor="#52647A"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvProgrammeCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CDCS251"
+                android:textColor="#142D4E"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <!-- Website -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLICATION WEBSITE"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#142D4E"
+            android:paddingTop="25dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GitHub Project Website"
+            android:textColor="#245B91"
+            android:textSize="15sp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="14dp"
+            android:background="#FFFFFF" />
+
+        <!-- Copyright -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2026 Baggage Fee Calculator. All Rights Reserved."
+            android:textColor="#64748B"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

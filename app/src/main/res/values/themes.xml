@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.BaggageFeeCalculator"
+        parent="Theme.Material3.DayNight">
+
+        <!-- Primary colours -->
+        <item name="colorPrimary">#142D4E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary colour -->
+        <item name="colorSecondary">#D6A84F</item>
+        <item name="colorOnSecondary">#142D4E</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#142D4E</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">#142D4E</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">#F4F7FC</item>
+
+    </style>
+
+    <style name="Theme.BaggageFeeCalculator"
+        parent="Base.Theme.BaggageFeeCalculator" />
+
+</resources>
