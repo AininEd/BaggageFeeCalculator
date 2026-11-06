@@ -35,7 +35,7 @@ public class AboutActivity extends AppCompatActivity {
         // Application website
         TextView tvWebsite = findViewById(R.id.tvWebsite);
 
-        String websiteUrl = "https://github.com/AininEd/baggage-fee-calculator";
+        String websiteUrl = "https://github.com/AininEd/BaggageFeeCalculator";
 
         tvWebsite.setText("Visit GitHub Repository");
         tvWebsite.setPaintFlags(

@@ -16,7 +16,7 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
     private static final String APP_URL =
-            "https://github.com/AininEd/baggage-fee-calculator";
+            "https://github.com/AininEd/BaggageFeeCalculator";
 
     // Input components
     private EditText etBaggageWeight, etRatePerKg;
